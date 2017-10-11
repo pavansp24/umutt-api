@@ -1,0 +1,62 @@
+= Cheatsheets
+
+[[LoginRequest]]
+== LoginRequest
+
+++++
+ Created by Gokul Kulkarni on 10/10/17.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[password]]`password`|`String`|-
+|[[username]]`username`|`String`|-
+|===
+
+[[RegistrationDto]]
+== RegistrationDto
+
+++++
+ Created by Gokul Kulkarni on 10/10/17.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[address]]`address`|`String`|-
+|[[area]]`area`|`String`|-
+|[[city]]`city`|`String`|-
+|[[country]]`country`|`String`|-
+|[[createdDt]]`createdDt`|`Number (Long)`|-
+|[[donorID]]`donorID`|`Number (Long)`|-
+|[[email]]`email`|`String`|-
+|[[name]]`name`|`String`|-
+|[[noOfFamilyMembers]]`noOfFamilyMembers`|`Number (Integer)`|-
+|[[phone]]`phone`|`String`|-
+|[[state]]`state`|`String`|-
+|[[subscribeForUpdates]]`subscribeForUpdates`|`Boolean`|-
+|[[volunteer]]`volunteer`|`link:dataobjects.html#UserDto[UserDto]`|-
+|===
+
+[[UserDto]]
+== UserDto
+
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[email]]`email`|`String`|-
+|[[firstName]]`firstName`|`String`|-
+|[[lastName]]`lastName`|`String`|-
+|[[password]]`password`|`String`|-
+|[[phone]]`phone`|`String`|-
+|[[role]]`role`|`Number (Integer)`|-
+|[[userId]]`userId`|`String`|-
+|===
+
